@@ -11,6 +11,10 @@ const (
 	// was altered to include adiitional information transfer.
 	handshakeUpgradeVersion = "1.0.0"
 
+	// streamUpgradeVersion is the version where the stream got upgraded to
+	// use smux instead of muxado
+	streamUpgradeVersion = "1.1.2"
+
 	// maxLocalOutbound is currently set to 3, meaning the gateway will not
 	// consider a local node to be an outbound peer if the gateway already has
 	// 3 outbound peers. Three is currently needed to handle situations where
